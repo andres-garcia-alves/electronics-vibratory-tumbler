@@ -1,6 +1,6 @@
 # Vibratory-Tumbler
 
-Arduino code for a time-controlled vibratory tumbler.
+Arduino code for a time-controlled vibratory tumbler (work-in-progress).
 
 &nbsp;
 
@@ -25,6 +25,12 @@ Notes:
 - The timer scale can be adjusted between minutes/seconds using the SCALE constant.
 
 &nbsp;
+
+### Screenshots
+
+| Arduino UNO prototype            | Arduino Nano prototype           |
+|----------------------------------|----------------------------------|
+| ![](Resources/Screenshot-01.jpg) | ![](Resources/Screenshot-02.jpg) |
 
 ### Version History
 
