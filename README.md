@@ -1,6 +1,8 @@
-# Vibratory-Tumbler v1.1
+# Vibratory-Tumbler
 
 Arduino code for a time-controlled vibratory tumbler.
+
+&nbsp;
 
 This project use the following electronic components:
 - 1 x Arduino UNO / Nano v3
@@ -22,12 +24,14 @@ The circuit:
 Notes:
 - The timer scale can be adjusted between minutes/seconds using the SCALE constant.
 
+&nbsp;
+
 ### Version History
 
-Version 1.0, 2021.05.24 - Initial release.
-Version 1.1, 2021.05.25 - Changing pins for better disposition on Arduino Nano.
+v1.0 (2021.05.24) - Initial release.  
+v1.1 (2021.05.25) - Changing pins for better disposition on Arduino Nano.
 
 &nbsp;
 
-This source code is licensed under GPL v3.0
+This source code is licensed under GPL v3.0  
 Please send me your feedback about this app: andres.garcia.alves@gmail.com
