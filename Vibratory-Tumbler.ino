@@ -1,3 +1,39 @@
+/*
+
+  Vibratory-Tumbler v1.1
+
+  Arduino code for a time-controlled vibratory tumbler.
+
+  This project use the following electronic components:
+  - 1 x Arduino UNO / Nano v3
+  - 4 x push-button
+  - 1 x TM1637 IC (4 digit 7 segment display)
+  - 1 x relay module
+  - 1 x active buzzer
+  - 1 x 200 ohm resistor
+
+  The circuit:
+  - Time increase push-button attached to pin 2
+  - Time decrease push-button attached to pin 3
+  - Start push-button attached to pin 4
+  - Pause/Stop push-button attached to pin 5
+  - TM1637 display attached to pins 7 & 8
+  - Relay module attached to pin 10
+  - Buzzer attached to pin 12 through a 200 ohm resistor
+
+  Notes:
+  - The timer scale can be adjusted between minutes/seconds using the SCALE constant.
+
+
+  Created by: Andres Garcia Alves <andres.garcia.alves@gmail.com>
+  
+  Version 1.0, 2021.05.24 - Initial release.
+  Version 1.1, 2021.05.25 - Changing pins for better disposition on Arduino Nano.
+
+  This source code is licensed under GPL v3.0
+
+*/
+
 #include <TM1637Display.h>
 
 const int PIN_BTN_INCREASE = 2;
@@ -5,11 +41,11 @@ const int PIN_BTN_DECREASE = 3;
 const int PIN_BTN_START = 4;
 const int PIN_BTN_STOP = 5;
 
-const int PIN_BUZZER = 9;
-const int PIN_RELE = 10;
+const int PIN_DISPLAY_CLK = 7;
+const int PIN_DISPLAY_DIO = 8;
 
-const int PIN_DISPLAY_CLK = A0;
-const int PIN_DISPLAY_DIO = A1;
+const int PIN_RELE = 10;
+const int PIN_BUZZER = 12;
 
 const long int SCALE = 60; // 1 = seconds, 60 = minutes
 
@@ -69,7 +105,7 @@ void setup() {
 
 
 void loop() {
-
+  
   // read the state of push-buttons
   btnIncreaseState = digitalRead(PIN_BTN_INCREASE);
   btnDecreaseState = digitalRead(PIN_BTN_DECREASE);  
