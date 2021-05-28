@@ -18,8 +18,8 @@
   - Start push-button attached to pin 4
   - Pause/Stop push-button attached to pin 5
   - TM1637 display attached to pins 7 & 8
-  - Relay module attached to pin 10
-  - Buzzer attached to pin 12 through a 200 ohm resistor
+  - Relay module attached to pin 12
+  - Buzzer attached to pin 13 through a 200 ohm resistor
 
   Notes:
   - The timer scale can be adjusted between minutes/seconds using the SCALE constant.
@@ -44,8 +44,8 @@ const int PIN_BTN_STOP = 5;
 const int PIN_DISPLAY_CLK = 7;
 const int PIN_DISPLAY_DIO = 8;
 
-const int PIN_RELE = 10;
-const int PIN_BUZZER = 12;
+const int PIN_RELE = 12;
+const int PIN_BUZZER = 13;
 
 const long int SCALE = 60; // 1 = seconds, 60 = minutes
 
