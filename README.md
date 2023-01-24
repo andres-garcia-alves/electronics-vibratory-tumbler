@@ -43,7 +43,7 @@ Notes:
 
 | Tumbler Structure                             | Tumbler Structure                             |
 |-----------------------------------------------|-----------------------------------------------|
-| ![](Resources/10-tumbler-structur.jpg)        | ![](Resources/12-tumbler-structur.jpg)        |
+| ![](Resources/10-tumbler-structure.jpg)       | ![](Resources/12-tumbler-structure.jpg)       |
 
 | Electronic Protoboard                         | Electronic Protoboard                         |
 |-----------------------------------------------|-----------------------------------------------|
