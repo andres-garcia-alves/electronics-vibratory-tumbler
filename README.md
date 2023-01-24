@@ -35,23 +35,23 @@ Notes:
 
 | Materials                                     | Proof Of Concept                              |
 |-----------------------------------------------|-----------------------------------------------|
-| ![](Resources/01 - Materials.jpg)             | ![](Resources/03 - Proof Of Concept.jpg)      |
+| ![](Resources/01-materials.jpg)               | ![](Resources/03-proof-of-concept.jpg)        |
 
 | Proof Of Concept                              | Tumbler Structure                             |
 |-----------------------------------------------|-----------------------------------------------|
-| ![](Resources/04 - Proof Of Concept.jpg)      | ![](Resources/08 - Tumbler Structure.jpg)     |
+| ![](Resources/04-proof-of-concept.jpg)        | ![](Resources/08-tumbler-structure.jpg)       |
 
 | Tumbler Structure                             | Tumbler Structure                             |
 |-----------------------------------------------|-----------------------------------------------|
-| ![](Resources/10 - Tumbler Structure.jpg) | ![](Resources/12 - Tumbler Structure.jpg) |
+| ![](Resources/10-tumbler-structur.jpg)        | ![](Resources/12-tumbler-structur.jpg)        |
 
 | Electronic Protoboard                         | Electronic Protoboard                         |
 |-----------------------------------------------|-----------------------------------------------|
-| ![](Resources/14 - Electronic Protoboard.jpg) | ![](Resources/15 - Electronic Protoboard.jpg) |
+| ![](Resources/14-electronic-protoboard.jpg)   | ![](Resources/15-electronic-protoboard.jpg)   |
 
 | Electronic Soldering                          | Proyect Final                                 |
 |-----------------------------------------------|-----------------------------------------------|
-| ![](Resources/19 - Electronic Soldering.jpg)  | [![](Resources/23 - Project Final.jpg)](https://youtu.be/gBZB96gjc-E) |
+| ![](Resources/19-electronic-soldering.jpg)    | [![](Resources/23-project-final.jpg)](https://youtu.be/gBZB96gjc-E) |
 
 See 'Rescources' sub-folder for more pictures & videos of the project.
 
