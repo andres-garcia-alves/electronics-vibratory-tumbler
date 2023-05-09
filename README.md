@@ -65,4 +65,4 @@ v1.1 (2021.05.25) - Changing pins for better disposition on Arduino Nano.
 &nbsp;
 
 This source code is licensed under GPL v3.0  
-Please send me your feedback about this app: andres.garcia.alves@gmail.com
+Please send me your feedback about this project: andres.garcia.alves@gmail.com
